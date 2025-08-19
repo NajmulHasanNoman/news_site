@@ -1,7 +1,7 @@
 import React, { cache } from 'react';
 import PlainLayout from '@/components/master/Plain-Layout';
 import { cookies, headers } from 'next/headers';
-import UserCommentsList from '@/components/comments/UserCommentsLIst';
+import UserCommentsList from '@/components/comments/UserCommentsList';
 
 
 async function getData(cookies) {
