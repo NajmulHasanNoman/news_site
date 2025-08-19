@@ -13,10 +13,10 @@ return {socials:socials,categories:categories}
 const PlainLayout =async (props) => {
    const data=await getData();
 
-   const cookieStore=cookies()
+   const cookieStore=await cookies()
    const token=cookieStore.get('token')
-   let isLogin=false;
-   isLogin=(typeof token !=="undefined");
+   let isLogin=false
+   isLogin=typeof token !=="undefined";
   
 
    return(
