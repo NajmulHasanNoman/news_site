@@ -9,7 +9,7 @@ const Footer = (props) => {
                     <div className="row">
                         <div className="col-md-3 col-sm-6  p-3">
                             <h5 className="text-white fw-bold my-3"> ABOUT </h5>
-                            <p className="text-white">{props.data['socials'][0]['about']}  </p>
+                            {/* <p className="text-white">{props.data['socials'][0]['about']}</p> */}
                             <div className="d-flex justify-content-center justify-content-sm-start">
                                 <div className="d-flex align-items-center">
                                     <a target="_blank" href={props.data['socials'][0]['facebook']}>
